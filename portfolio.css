@@ -1,0 +1,73 @@
+body {
+	color: #666666;
+	font-family: 'Slabo 27px', serif;
+	background-color: #AAAAAA
+}
+h1 {
+	font-weight: lighter;
+	color: #444444;
+	font-size: 4em;
+	border-bottom: 5px solid #444444;
+	margin: 0px;
+}
+
+h2 {
+	color: #666666;
+	font-size: 3em;
+}
+
+p, ul {
+	color: #444444;
+}
+
+img {
+	border: 3px solid #444444;
+	margin-right: 10px;
+}
+
+
+.big {
+	font-size: 2em;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #AAAAAA;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #447799;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
